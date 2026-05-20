@@ -1,7 +1,7 @@
-public class Estudianre extends Persona {
+public class Estudiante extends Persona {
     private String carrera;
 
-    public Estudianre(String cedula, String nombreCompleto, int edad, String carrera) {
+    public Estudiante(String cedula, String nombreCompleto, int edad, String carrera) {
         super(cedula, nombreCompleto, edad);
         this.carrera = carrera;
     }
